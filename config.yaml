@@ -1,0 +1,22 @@
+training:
+  num_epochs: 200
+  batch_size: 16
+  patience: 10
+  cooldown: 5
+  min_delta: 0.0001
+  learning_rate: 3e-5
+  weight_decay: 1e-4
+  t_max: 50
+
+model:
+  num_classes: 6
+  metadata_input_size: 21
+  metadata_output_size: 768
+
+data:
+  train_csv: "./data/processed2-train-metadata-3.csv"
+  val_csv: "./data/processed2-val-metadata-3.csv"
+  test_csv: "./data/processed2-test-metadata-3.csv"
+  train_img_dir: "./data/processed2-train-set-3/"
+  val_img_dir: "./data/processed2-val-set-3/"
+  test_img_dir: "./data/processed2-test-set-3/"

@@ -1,0 +1,8 @@
+torch>=1.8.0
+torchvision
+timm
+pandas
+numpy
+Pillow
+scikit-learn
+PyYAML
