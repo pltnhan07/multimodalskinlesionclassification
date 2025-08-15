@@ -14,7 +14,7 @@ It uses a ConvNeXt backbone augmented with CBAM modules. The model is trained us
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
+   git clone https://github.com/pltnhan07/multimodalskinlesionclassification.git
    cd my_project
    
 2. **Create a virtual environment and install dependencies**
