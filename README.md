@@ -1,7 +1,7 @@
-## My Project: ConvNeXt-CBAM Classifier with Metadata Fusion
+## Project: ConvNeXt-CBAM Classifier with Metadata Fusion
 
 This project implements a convolutional neural network for image classification that fuses image data with metadata.
-It uses a ConvNeXt backbone augmented with CBAM modules. The model is trained using a custom Focal Loss.
+It uses a ConvNeXt backbone integrated with CBAM modules. The model is trained using a custom Focal Loss.
 
 ### Project Structure
 
@@ -15,7 +15,7 @@ It uses a ConvNeXt backbone augmented with CBAM modules. The model is trained us
 1. **Clone the repository**
    ```bash
    git clone https://github.com/pltnhan07/multimodalskinlesionclassification.git
-   cd my_project
+   cd multimodalskinlesionclassification
    
 2. **Create a virtual environment and install dependencies**
    ```bash
